@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d65fb03-3beb-4115-b608-1c961c8b11cf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Components/messages/Message.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/messages/Message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/buttons/AppButtons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/buttons/BasicButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/buttons/LabelButton/ContentButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/buttons/LabelButton/IconButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/buttons/LabelButton/LabelButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AppMessage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/messages/AppMessage.js">
+      <file leaf-file-name="AppButtons.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/buttons/AppButtons.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+            <state relative-caret-position="437">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -25,24 +31,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Message.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Components/messages/Message.js">
+      <file leaf-file-name="LabelButton.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Components/buttons/LabelButton/LabelButton.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="15" column="77" lean-forward="true" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
+            <state relative-caret-position="392">
+              <caret line="20" column="43" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="43" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <element signature="e#151#157#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
+      <file leaf-file-name="ContentButton.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/buttons/LabelButton/ContentButton.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="9" column="58" lean-forward="true" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IconButton.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/buttons/LabelButton/IconButton.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -82,9 +96,15 @@
         <option value="$PROJECT_DIR$/src/Components/breadcrumbs/ItemCrumb.js" />
         <option value="$PROJECT_DIR$/src/Components/breadcrumbs/AppBreadcrumb.js" />
         <option value="$PROJECT_DIR$/src/Components/breadcrumbs/ParentCrumb.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/Components/messages/AppMessage.js" />
         <option value="$PROJECT_DIR$/src/Components/messages/Message.js" />
+        <option value="$PROJECT_DIR$/src/Components/messages/AppMessage.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/Components/buttons/BasicButton.js" />
+        <option value="$PROJECT_DIR$/src/Components/buttons/LabelButton.js" />
+        <option value="$PROJECT_DIR$/src/Components/buttons/LabelButton/IconButton.js" />
+        <option value="$PROJECT_DIR$/src/Components/buttons/LabelButton/ContentButton.js" />
+        <option value="$PROJECT_DIR$/src/Components/buttons/LabelButton/LabelButton.js" />
+        <option value="$PROJECT_DIR$/src/Components/buttons/AppButtons.js" />
       </list>
     </option>
   </component>
@@ -142,7 +162,15 @@
               <item name="my-react-apps" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="messages" type="462c0819:PsiDirectoryNode" />
+              <item name="buttons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-react-apps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-react-apps" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="buttons" type="462c0819:PsiDirectoryNode" />
+              <item name="LabelButton" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -159,6 +187,15 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\GitHub\my-react-apps\src\Components\buttons\LabelButton" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\GitHub\my-react-apps\src\Components\buttons\LabelButton" />
+      <recent name="C:\xampp\htdocs\GitHub\my-react-apps\src\Components\buttons" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -201,30 +238,30 @@
       <workItem from="1626073101615" duration="6169000" />
       <workItem from="1626150378676" duration="9951000" />
       <workItem from="1626171912242" duration="2082000" />
-      <workItem from="1626323208702" duration="6002000" />
+      <workItem from="1626323208702" duration="9028000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24204000" />
+    <option name="totallyTimeSpent" value="27230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Migrations" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Migrations" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32994923" />
       <window_info id="npm" order="2" sideWeight="0.510101" side_tool="true" weight="0.26096824" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32994923" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48989898" visible="true" weight="0.26096824" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32994923" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48989898" visible="true" weight="0.26096824" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -482,20 +519,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="58" lean-forward="true" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/messages/AppMessage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+        <state relative-caret-position="157">
+          <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -504,11 +531,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/messages/Message.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="15" column="77" lean-forward="true" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
+        <state relative-caret-position="700">
+          <caret line="36" column="10" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="10" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#151#157#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/buttons/BasicButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="16" column="9" lean-forward="true" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/buttons/LabelButton/IconButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/buttons/LabelButton/ContentButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/buttons/AppButtons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/buttons/LabelButton/LabelButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

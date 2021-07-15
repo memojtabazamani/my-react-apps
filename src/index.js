@@ -7,9 +7,12 @@ import ReactDOM from 'react-dom';
 // import AppBreadcrumb from './Components/breadcrumbs/AppBreadcrumb';
 
 // Message
-import AppMessage from './Components/messages/AppMessage';
+// import AppMessage from './Components/messages/AppMessage';
+
+// Button
+import AppButton from './Components/buttons/AppButtons';
 
 ReactDOM.render(
-    <AppMessage />,
+    <AppButton />,
   document.getElementById('root')
 );
