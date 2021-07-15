@@ -4,9 +4,12 @@ import ReactDOM from 'react-dom';
 // import App from './Components/accordion/AppAccordion';
 
 // Breadcrumb
-import AppBreadcrumb from './Components/breadcrumbs/AppBreadcrumb';
+// import AppBreadcrumb from './Components/breadcrumbs/AppBreadcrumb';
+
+// Message
+import AppMessage from './Components/messages/AppMessage';
 
 ReactDOM.render(
-    <AppBreadcrumb />,
+    <AppMessage />,
   document.getElementById('root')
 );
