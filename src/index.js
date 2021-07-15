@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './Components/accordion/AppAccordion';
+// Accordion
+// import App from './Components/accordion/AppAccordion';
 
+// Breadcrumb
+import AppBreadcrumb from './Components/breadcrumbs/AppBreadcrumb';
 
 ReactDOM.render(
-    <App />,
+    <AppBreadcrumb />,
   document.getElementById('root')
 );
