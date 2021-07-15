@@ -8,11 +8,11 @@ class AppBreadcrumb extends React.Component {
     render() {
         return (
             <>
-                <ParentCrumb size="huge">
-                    <ItemCrumb title="Home" useIconDivier={true} />
-                    <ItemCrumb title="News" useIconDivier={true} />
-                    <ItemCrumb title="News - 695" useIconDivier={true} />
-                    <ItemCrumb title="Detail" active={true}/>
+                <ParentCrumb size="huge" useIconDivier={true} justText={true}>
+                    <item title="Home"  />
+                    <item title="News"  />
+                    <item title="News - 695"  />
+                    <item title="Detail"/>
                 </ParentCrumb>
             </>
         )

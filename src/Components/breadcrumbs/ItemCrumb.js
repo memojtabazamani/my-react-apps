@@ -4,7 +4,6 @@ import ReactDOM from 'react-dom';
 class ItemCrumb extends React.Component {
     constructor(props) {
         super(props);
-        console.log(this);
     }
     render() {
         let renderItem;
@@ -12,7 +11,8 @@ class ItemCrumb extends React.Component {
         if(!this.props.active) { // is de-active render de-active item
             renderItem =
                 <>
-                    <a className="section">{ this.props.title }</a>
+                    { this.props.justText ? <div className="section">{ this.props.title }</div> : <a className="section">{ this.props.title }</a> }
+
                     {
                         this.props.useIconDivier ? <i className="right chevron icon divider"></i>  :  <span className = "divider" > / </span> }
 
