@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d65fb03-3beb-4115-b608-1c961c8b11cf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/buttons/AppButtons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/buttons/BasicButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/buttons/LabelButton/ContentButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/buttons/LabelButton/IconButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/buttons/LabelButton/LabelButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/buttons/LabelButton/IconButton.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/src/Components/buttons/AppButtons.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
-              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+              <caret line="19" selection-start-line="19" selection-end-line="20" selection-end-column="32" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -34,29 +28,8 @@
       <file leaf-file-name="LabelButton.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/buttons/LabelButton/LabelButton.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="20" column="43" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContentButton.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/buttons/LabelButton/ContentButton.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IconButton.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/buttons/LabelButton/IconButton.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="381">
+              <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -238,12 +211,12 @@
       <workItem from="1626073101615" duration="6169000" />
       <workItem from="1626150378676" duration="9951000" />
       <workItem from="1626171912242" duration="2082000" />
-      <workItem from="1626323208702" duration="9028000" />
+      <workItem from="1626323208702" duration="9714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27230000" />
+    <option name="totallyTimeSpent" value="27916000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -257,7 +230,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.32994923" />
       <window_info id="npm" order="2" sideWeight="0.510101" side_tool="true" weight="0.26096824" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32994923" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48989898" visible="true" weight="0.26096824" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48989898" visible="true" weight="0.26096824" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -559,6 +532,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/buttons/AppButtons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" selection-start-line="19" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/buttons/LabelButton/IconButton.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -576,20 +559,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/buttons/AppButtons.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/buttons/LabelButton/LabelButton.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="20" column="43" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="43" />
+        <state relative-caret-position="381">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

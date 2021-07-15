@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import IconButton from './IconButton';
-import ContentButton from './ContentButton';
 
 class LabelButton extends React.Component {
     constructor(props) {
