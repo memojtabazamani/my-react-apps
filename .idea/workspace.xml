@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d65fb03-3beb-4115-b608-1c961c8b11cf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/postapplication/AppPost.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/postapplication/CardPost.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/postapplication/CardPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/postapplication/CardPost.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppPost.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AppPost.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/postapplication/AppPost.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="37" column="70" selection-start-line="37" selection-start-column="70" selection-end-line="37" selection-end-column="70" />
+            <state relative-caret-position="364">
+              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -42,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CardPost.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CardPost.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/postapplication/CardPost.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+            <state relative-caret-position="129">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -95,8 +91,8 @@
         <option value="$PROJECT_DIR$/src/Components/buttons/AppButtons.js" />
         <option value="$PROJECT_DIR$/src/Components/buttons/LabelButton/LabelButton.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/Components/postapplication/CardPost.js" />
         <option value="$PROJECT_DIR$/src/Components/postapplication/AppPost.js" />
+        <option value="$PROJECT_DIR$/src/Components/postapplication/CardPost.js" />
       </list>
     </option>
   </component>
@@ -224,12 +220,12 @@
       <workItem from="1626171912242" duration="2082000" />
       <workItem from="1626323208702" duration="10324000" />
       <workItem from="1626497462672" duration="750000" />
-      <workItem from="1626513432389" duration="3156000" />
+      <workItem from="1626513432389" duration="4866000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32432000" />
+    <option name="totallyTimeSpent" value="34142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -586,20 +582,20 @@
     <entry file="file://$PROJECT_DIR$/../../Bitbucket/react-hooks/src/components/ProjectLists.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/postapplication/CardPost.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/postapplication/AppPost.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+        <state relative-caret-position="364">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/postapplication/AppPost.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/postapplication/CardPost.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="37" column="70" selection-start-line="37" selection-start-column="70" selection-end-line="37" selection-end-column="70" />
+        <state relative-caret-position="129">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
