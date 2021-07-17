@@ -10,9 +10,12 @@ import ReactDOM from 'react-dom';
 // import AppMessage from './Components/messages/AppMessage';
 
 // Button
-import AppButton from './Components/buttons/AppButtons';
+// import AppButton from './Components/buttons/AppButtons';
+
+// PostApplication
+import AppPost from './Components/postapplication/AppPost';
 
 ReactDOM.render(
-    <AppButton />,
-  document.getElementById('root')
+    <AppPost/>,
+    document.getElementById('root')
 );
