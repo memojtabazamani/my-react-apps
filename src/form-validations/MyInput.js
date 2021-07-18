@@ -6,8 +6,7 @@ class MyInput extends React.Component {
     constructor(props) {
         super(props);
         this.splitValidations = this.splitValidations != "" ? this.props.validations.split(",") : "";
-
-
+        this.myRef = React.createRef();
     }
 
     state = {
@@ -48,7 +47,9 @@ class MyInput extends React.Component {
             })
         }
 
-        this.props.validationForm(faild);
+        if(faild) {
+            this.props.validationForm(faild, this.state.valueOfThis);
+        }
     }
 
     render() {
@@ -69,6 +70,7 @@ class MyInput extends React.Component {
                         value={this.state.valueOfThis}
                         onChange={e => this.setState({valueOfThis: e.target.value})}
                         onBlur={this.validationMe.bind(this)}
+                        ref={this.myRef}
                     />
                 </div>
                 <div className="ui error message" style={styles}>

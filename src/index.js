@@ -13,9 +13,12 @@ import ReactDOM from 'react-dom';
 // import AppButton from './Components/buttons/AppButtons';
 
 // PostApplication
-import AppPost from './Components/postapplication/AppPost';
+// import AppPost from './Components/postapplication/AppPost';
+
+// US
+import UserUS from './Components/userunsplash/UserUS';
 
 ReactDOM.render(
-    <AppPost/>,
+    <UserUS />,
     document.getElementById('root')
 );
