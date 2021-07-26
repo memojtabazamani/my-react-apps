@@ -7,10 +7,6 @@ class SearchBar extends Component {
         super(props);
         this.state = {username: [], error: false};
     }
-
-    async componentDidMount() {
-
-    }
     submitForm(state, value) {
         this.props.sendUserName(value);
     }

@@ -4,20 +4,12 @@ import axios from 'axios';
 import SearchBar from './SearchBar';
 import Message from '../messages/Message';
 import UserCard from './UserCard';
+import Loader from '../loader/Loader';
 
 class UserUS extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {user: null, error: ""};
-        // this.apiUser = this.apiUser("").bind(this);
-    }
-
-    async apiUser(value) {
-
-    }
-
+    state = {user: null, error: ""};
     showUserName(value) {
-        console.log(value);
+        this.setState({loading: true});
         axios.get(`https://api.unsplash.com/users/${value}`, {
             headers: {
                 Authorization: "Client-ID -PiTrb0DiYd4Kcc4yevICXt2Ci3OzymTlVnj4HcqWrY"
@@ -27,12 +19,14 @@ class UserUS extends Component {
             this.setState({
                 user: response.data,
                 error: "",
+                loading: false
             });
         }.bind(this)).catch(function (error) {
             this.setState({
                 user: null,
-                error: "User not found!"
-            })
+                error: "User not found!",
+                loading: false
+            });
         }.bind(this));
     }
 
@@ -44,10 +38,8 @@ class UserUS extends Component {
                 { this.state.error && <Message title="Info" type="warning" closeIcon={true} icon={"address book"}>
                     User Not Found
                 </Message> }
-
-                {
-                    this.state.user != null && <UserCard user={this.state.user}/>
-                }
+                { this.state.loading && <Loader /> }
+                { this.state.user != null && <UserCard user={this.state.user}/> }
             </div>
         )
     }

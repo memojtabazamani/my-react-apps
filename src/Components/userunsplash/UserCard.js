@@ -6,10 +6,12 @@ class UserCard extends Component {
     constructor(props) {
         super(props);
         this.user = props.user;
+
     }
 
     render() {
-        let date = new Date(this.user.update_a);
+        let date = new Date(this.user.updated_at);
+        console.log(date);
         const icons = {
             "instagram_username": "instagram ",
             "portfolio_url": "address book",
@@ -61,6 +63,12 @@ class UserCard extends Component {
                                 {exeSoc}
                             </div>
 
+                        </div>
+                        <div className="extra content">
+                            <small>
+                                Joined in { date.getFullYear() }-{ date.getDate() }-{
+                                date.getMonth() < 10 ? "0" + date.getMonth() : date.getMonth()}
+                            </small>
                         </div>
                     </div>
                     <table className="ui blue table card ten wide column" style={{
