@@ -6,12 +6,10 @@ class UserCard extends Component {
     constructor(props) {
         super(props);
         this.user = props.user;
-
     }
 
     render() {
         let date = new Date(this.user.updated_at);
-        console.log(date);
         const icons = {
             "instagram_username": "instagram ",
             "portfolio_url": "address book",
@@ -32,10 +30,10 @@ class UserCard extends Component {
         }
         return (
             <>
-                <div className="ui link cards sex column container">
-                    <div className="card column">
+                <div className="ui link cards grid">
+                    <div className="card wide" style={{ width : "100%"}}>
                         <div className="image">
-                            <img src={this.user.profile_image.large}/>
+                            <img/>
                         </div>
                         <div className="content">
                             <div className="header">{this.user.username}</div>
@@ -49,14 +47,16 @@ class UserCard extends Component {
                                 <div className="item">
                                     <i className="user icon"></i>
                                     <div className="content">
-                                        {this.user.following_count}
+                                        Following :
+                                         { this.user.following_count}
                                     </div>
                                 </div>
 
                                 <div className="item">
                                     <i className="user icon"></i>
                                     <div className="content">
-                                        {this.user.followers_count}
+                                        Follower :
+                                         { this.user.followers_count}
                                     </div>
                                 </div>
 
@@ -71,20 +71,6 @@ class UserCard extends Component {
                             </small>
                         </div>
                     </div>
-                    <table className="ui blue table card ten wide column" style={{
-                        flex: "auto"
-                    }}>
-                        <tbody>
-                        <tr>
-                            <td>Apples</td>
-                            <td>asdq2</td>
-                        </tr>
-                        <tr>
-                            <td>Orange</td>
-                            <td>310</td>
-                        </tr>
-                        </tbody>
-                    </table>
                 </div>
 
             </>
