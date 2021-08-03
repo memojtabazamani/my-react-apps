@@ -7,12 +7,18 @@ class MyInput extends React.Component {
         super(props);
         this.splitValidations = this.splitValidations != "" ? this.props.validations.split(",") : "";
         this.myRef = React.createRef();
+        console.log(props.valueInput);
+        this.state = {
+            valueOfThis: this.props.valueInput,
+            messageError: "",
+        };
+    }
+    componentWillUpdate() {
+        console.log(this.props.valueInput);
+        this.setState({valueOfThis: this.props.valueInput,});
+        console.log(this.state.valueOfThis);
     }
 
-    state = {
-        valueOfThis: "",
-        messageError: "",
-    };
 
     componentDidMount() {
         console.log(this.props.reValidationInput);
@@ -84,7 +90,8 @@ class MyInput extends React.Component {
 }
 
 MyInput.defaultProps = {
-    validations: ""
+    validations: "",
+    valueInput: ""
 };
 
 export default MyInput;
