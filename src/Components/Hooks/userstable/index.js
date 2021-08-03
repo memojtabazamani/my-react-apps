@@ -9,16 +9,18 @@ export default () => {
     const style = {
         "marginTop": "5%",
     }
-    const headerTable = ["id", "name", "email", "website", "actions"];
+    const headerTable = ["id", "username", "email", "website", "edit", "detail"];
 
     const [users, setUsers] = useState([]);
     const [loadUsers, setloadUsers] = useState(true);
     const [activeUser, setactiveUser] = useState(null);
+    const [actionMethod, setActionMethod] = useState(null);
+    let renderingUser = null;
 
 
-    const showForm = (user) => {
-        setactiveUser(null);
+    const showForm = (user, type) => {
         setactiveUser(user);
+        setActionMethod(type);
     }
 
     function renderHeaders() {
@@ -37,13 +39,23 @@ export default () => {
                         headerTable.map(header => {
                             return (
                                 <td key={user.id + header}>
-                                    {header != "actions" ? user[header] :
+                                    {
+                                        header === "edit" &&
                                         <button
                                             className="ui button"
-                                            onClick={(e) => setactiveUser(user)}>
+                                            onClick={(e) => showForm(user, "edit")}>
                                             Edit
                                         </button>
                                     }
+                                    {
+                                        header === "detail" &&
+                                        <button
+                                            className="ui button green"
+                                            onClick={(e) => showForm(user, "detail")}>
+                                            Detail
+                                        </button>
+                                    }
+                                    { user[header] }
                                 </td>
                             );
                         })
@@ -68,16 +80,20 @@ export default () => {
     function submitForm(v) {
 
     }
+
+    if(actionMethod === "edit") {
+        renderingUser =  <MyForm>
+            <MyInput label="Username" name="username" placeholder="Enter Username" validations="required" valueInput={activeUser.username} validationForm={submitForm}/>
+            <MyInput label="Email" name="email" placeholder="Enter Email" validations="required" valueInput={activeUser.email} validationForm={submitForm}/>
+        </MyForm>;
+    } else {
+        renderingUser = "Detail";
+    }
+
     if (users.length > 0) {
         return (
             <div className="ui container" style={style}>
-                {
-                    activeUser &&
-                <MyForm>
-                    { activeUser.username }
-                    <MyInput label="Username" name="username" placeholder="Enter Username" validations="required" valueInput={activeUser.username} validationForm={submitForm}/>
-                </MyForm>
-                }
+                { activeUser && renderingUser }
                 <table className="ui celled table">
                     <thead>
                     <tr>

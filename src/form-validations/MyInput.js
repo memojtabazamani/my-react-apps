@@ -7,21 +7,16 @@ class MyInput extends React.Component {
         super(props);
         this.splitValidations = this.splitValidations != "" ? this.props.validations.split(",") : "";
         this.myRef = React.createRef();
-        console.log(props.valueInput);
         this.state = {
             valueOfThis: this.props.valueInput,
             messageError: "",
         };
     }
-    componentWillUpdate() {
-        console.log(this.props.valueInput);
-        this.setState({valueOfThis: this.props.valueInput,});
-        console.log(this.state.valueOfThis);
-    }
 
-
-    componentDidMount() {
-        console.log(this.props.reValidationInput);
+    UNSAFE_componentWillUpdate(nextProps) {
+        if(this.props.valueInput !== nextProps.valueInput) {
+            this.setState({valueOfThis: nextProps.valueInput,});
+        }
     }
 
     validationMe(e) {
